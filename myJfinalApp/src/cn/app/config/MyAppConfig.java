@@ -42,6 +42,7 @@ public class MyAppConfig  extends JFinalConfig{
 	@Override
 	public void configHandler(Handlers me) {
 		// TODO Auto-generated method stub
+		System.out.println("hello");
 		me.add(new ContextPathHandler("basePath"));
 	}
 	
