@@ -18,6 +18,7 @@ public class MyAppConfig  extends JFinalConfig{
 		// TODO Auto-generated method stub
 		me.setDevMode(true);
 		me.setEncoding("utf-8");
+		System.out.println("hello");
 		me.setViewType(ViewType.JSP);
 	}
 
