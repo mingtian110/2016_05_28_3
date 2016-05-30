@@ -6,6 +6,7 @@ public class IndexController extends Controller{
 
 	public void index(){
 		
+		System.out.println("hello   rebase");
 		System.out.println("hello");
 		System.out.println("hello");
 		System.out.println("hello");
