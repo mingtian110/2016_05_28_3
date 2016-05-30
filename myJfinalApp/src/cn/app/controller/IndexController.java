@@ -5,6 +5,8 @@ import com.jfinal.core.Controller;
 public class IndexController extends Controller{
 
 	public void index(){
+		
+		System.out.println("hello");
 		this.render("/index.jsp");
 	}
 	public void sayhello(){
