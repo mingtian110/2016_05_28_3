@@ -23,5 +23,8 @@ public class IndexController extends Controller{
 	public void newFeature(){
 		
 		System.out.println("new feature");
+	}public void newFeatureOfHasee(){
+		
+		System.out.println("newFeatureOfHasee");
 	}
 }
