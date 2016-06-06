@@ -20,4 +20,8 @@ public class IndexController extends Controller{
 		this.setAttr("sayhello", sayhello);
 		this.render("/hello.jsp");
 	}
+	public void newFeature(){
+		
+		System.out.println("new feature");
+	}
 }
